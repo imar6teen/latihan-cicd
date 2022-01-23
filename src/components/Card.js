@@ -26,7 +26,7 @@ function Card() {
         <img src={avatar} alt="avatar" />{" "}
         <span>
           Creation of{" "}
-          <a href="#" id="redirect-account">
+          <a href="https://youtube.com" id="redirect-account">
             Jules Wyvern
           </a>
         </span>
