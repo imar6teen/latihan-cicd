@@ -12,7 +12,7 @@ function Card() {
       </div>
       <div id="desc" data-testid="desc">
         <h4>Equilibrium #3429</h4>
-        <p>Our Equilibrium collection promotes balance and calm</p>
+        <p>Our Equilibrium collection a promotes balance and calm</p>
       </div>
       <div id="status">
         <div id="price">
@@ -26,7 +26,7 @@ function Card() {
         <img src={avatar} alt="avatar" />{" "}
         <span>
           Creation of{" "}
-          <a href="#" id="redirect-account">
+          <a href="https://youtube.com" id="redirect-account">
             Jules Wyvern
           </a>
         </span>
