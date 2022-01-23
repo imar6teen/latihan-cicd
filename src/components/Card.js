@@ -9,6 +9,7 @@ function Card() {
     <div id="card" data-testid="card">
       <div id="image" data-testid="image">
         <img src={img} alt="imagesss" />
+
       </div>
       <div id="desc" data-testid="desc">
         <h4>Equilibrium #3429</h4>
