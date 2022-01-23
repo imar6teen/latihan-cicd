@@ -1,0 +1,57 @@
+#card {
+  width: 17rem;
+  height: 26rem;
+  background-color: $cardBG;
+  padding: 1em;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  #image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 14rem;
+    img {
+      border-radius: 5%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  #author {
+    display: flex;
+    align-items: center;
+    img {
+      width: 30px;
+      height: 30px;
+      border: 1px solid $white;
+      border-radius: 30%;
+    }
+    span {
+      font-size: 0.9rem;
+      color: $primarySoftBlue;
+    }
+  }
+  #desc {
+    h4 {
+      color: $white;
+      padding: 10px 0;
+    }
+    p {
+      color: $primarySoftBlue;
+      padding: 10px 0;
+    }
+  }
+  #status {
+    display: flex;
+    justify-content: space-between;
+    #price {
+      padding: 0 0 15px 0;
+      color: $primaryCyan;
+    }
+    #time {
+      padding: 0 0 15px 0;
+      color: $primarySoftBlue;
+    }
+    border-bottom: 1px solid $primarySoftBlue;
+    margin: 0 0 15px 0;
+  }
+}
